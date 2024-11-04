@@ -1,3 +1,11 @@
+// Menu data structure
+var menuLinks = [
+  { text: 'about', href: '/about' },
+  { text: 'catalog', href: '/catalog' },
+  { text: 'orders', href: '/orders' },
+  { text: 'account', href: '/account' },
+];
+
 //Putting this here for good practice until I am fully familar and confident
 console.log('Checking My Console for Errors')
 
@@ -17,8 +25,25 @@ mainEl.classList.add('flex-ctr');
 const topMenuEl = document.getElementById('top-menu');
 
 
-//Chaning height of top menu to be 100%
+//Changing height of top menu to be 100%
 topMenuEl.style.height = '100%';
+
+//Setting the backgound color
+topMenuEl.style.backgroundColor = 'var(--top-menu-bg)';
+
+//Adding a class of flex-around to topMenuEl.
+topMenuEl.classList.add('flex-around');
+
+//This line is telling JavaScript to go through each link in menuLinks.
+menuLinks.forEach(link => {
+  const aElement = document.createElement('a');
+  aElement.href = link.href;
+  aElement.textContent = link.text;
+  topMenuEl.appendChild(aElement);
+});
+
+
+
 
 
 
