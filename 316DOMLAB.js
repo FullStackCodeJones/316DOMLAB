@@ -14,7 +14,8 @@ mainEl.innerHTML = '<h1>DOM Manipulation</h1>';
 mainEl.classList.add('flex-ctr');
 
 //Select and caching(spell checked... there's no "e" in chaching.. Who KNEW?🙃) the <nav id="top-menu">
-const menuEl = document.querySelector('menu');
+const topMenuEl = document.getElementById('top-menu');
+
 
 //Chaning height of top menu to be 100%
 topMenuEl.style.height = '100%';
