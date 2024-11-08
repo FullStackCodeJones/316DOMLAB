@@ -40,6 +40,7 @@ menuLinks.forEach(link => {
   aElement.href = link.href;
   aElement.textContent = link.text;
   topMenuEl.appendChild(aElement);
+  
 });
 
 
