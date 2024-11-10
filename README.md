@@ -1,5 +1,4 @@
-# 316DOMLAB
-<<<<<<< HEAD
+
 # 316DOMLAB2NDATTEMPT
 =======
 Project: ALAB DOM Manipulation – Just Like Magic, but With Code
@@ -21,5 +20,5 @@ Sooooo, confession: I didn't save my files properly the first time (lesson learn
 Key Takeaway:
 This was my crash course in making JavaScript work for me, and I’m pretty sure it was an even split between magic and logic. I now have a newfound appreciation for all things DOM.
 
->>>>>>> 4c3eb8a9b47004817aa13e89fafd384561be8811
+
 # 316DOMLAB2NDATTEMPT
